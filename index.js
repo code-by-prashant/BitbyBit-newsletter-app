@@ -54,6 +54,7 @@ app.post("/", function(req, res){
 
     // replace the "<dc>" with the "us10" (the code might differ) 
     // that will provided at the end of API Key.
+    // key should be kept private and hidden
     const url = 'https://us10.api.mailchimp.com/3.0/lists/583de6e597'
     
     // username:api_key -> you can have ANYTHING for username
